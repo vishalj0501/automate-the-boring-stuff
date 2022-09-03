@@ -10,10 +10,11 @@ def printTable(table):
         for j in range(len(table)):
             print(table[j][i].rjust(colWidths[j]), end = ' ')
         print("\n")
-        
+
 
 tableData = [['apples', 'oranges', 'cherries', 'banana'],
              ['Alice', 'Bob', 'Carol', 'David'],
              ['dogs', 'cats', 'moose', 'goose']]
+
 
 printTable(tableData)

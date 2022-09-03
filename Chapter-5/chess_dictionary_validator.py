@@ -1,5 +1,6 @@
 def is_valid_chessboard(board):
   
+  
     possible_pos = [str(i)+j for j in ['a','b','c','d','e','f','g','h'] for i in range(1,9)]
     possible_pieces = ['pawn','knight','bishop','rook','queen','king']
     for i in board.keys():
